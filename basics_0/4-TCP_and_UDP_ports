@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # Script qui affiche les ports en écoute avec PID et nom des programmes
-
-netstat -tunlp 2>/dev/null || ss -tunlp
+sudo netstat -tunlp
